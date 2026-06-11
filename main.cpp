@@ -51,9 +51,6 @@ int main(){
 
     std::cout << "Hello " << name << '\n';
     std::cout << "Your grade is " << grade << '\n';
-   
-
-
 
 
 
