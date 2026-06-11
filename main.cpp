@@ -1,3 +1,7 @@
+//to sync in github do ts:
+//first git add .
+//second git commit -m "what all changes you did, add it here"
+// third git push
 #include <iostream>
 using namespace std;
 
@@ -116,12 +120,20 @@ int main(){
     // Tiny Tiny Project: Take two numbers from the user, multiply them, and print the result.
     int user_number_1;
     int user_number_2;
-    int answer = user_number_1 * user_number_2;
     cout << "Enter 1st number: ";
     cin >> user_number_1;
     cout << "Enter 2nd number: ";
     cin >> user_number_2;
-    cout << answer;
+    int answer = user_number_1 * user_number_2;
+    cout << answer << '\n';
+
+    // Tiny Tiny Project: Take a total number of cookies, divide them among 3 friends, and print how many cookies are left over.
+    int cookies;
+    int friends = 3;
+    int cookies_left = cookies % friends;
+    cout << "Enter the number of cookies: ";
+    cin >> cookies;
+    cout << "Total cookies left over: " << cookies_left;
 
 
 
