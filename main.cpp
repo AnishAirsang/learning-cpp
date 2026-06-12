@@ -137,7 +137,4 @@ int main(){
     int cookies_left = cookies % friends;
 
     cout << "Total cookies left over: " << cookies_left << endl;
-
-
-
 }
