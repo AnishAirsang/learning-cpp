@@ -130,10 +130,13 @@ int main(){
     // Tiny Tiny Project: Take a total number of cookies, divide them among 3 friends, and print how many cookies are left over.
     int cookies;
     int friends = 3;
-    int cookies_left = cookies % friends;
+
     cout << "Enter the number of cookies: ";
     cin >> cookies;
-    cout << "Total cookies left over: " << cookies_left;
+
+    int cookies_left = cookies % friends;
+
+    cout << "Total cookies left over: " << cookies_left << endl;
 
 
 
