@@ -224,9 +224,9 @@ int main(){
 
     //shortcuts
 
-    int number = 10;
+    int number1= 10;
     string result;
-    if (number % 2 == 0){
+    if (number1% 2 == 0){
         result = "Even";
     } else{
         result = "odd";
@@ -235,8 +235,11 @@ int main(){
     //or we can write this as:
 
     int number = 10;
-    string result = (number % 2 == 0) ? "Even" : "Odd";
-    
+    string result1= (number % 2 == 0) ? "Even" : "Odd";
+
+    //loops
+
+
 
 
 
