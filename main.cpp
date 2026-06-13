@@ -185,23 +185,22 @@ int main(){
     } else {
         cout << "very cold \n";
     }
+//Increment and decrement operators
 
-    //Increment and decrement operators
-
-    int score = 10;
-    score++; // now score is 11
+    int score2 = 10;
+    score2++; // now score is 11
 
     int score1 = 10;
     score1--; //now score is 9
 
     // Tiny Tiny Project: Modify a game score using ++ and --
-    int points = 100;
-    cout << "Your points are: " << points;
-    points++;
-    points--;
-    points--;
-    cout << "Final points: " << points << '\n';
-    
+    int points2 = 100;
+    cout << "Your points are: " << points2 << '\n';
+    points2++;
+    points2--;
+    points2--;
+    cout << "Final points: " << points2 << '\n';
+
 
     
 
