@@ -222,7 +222,23 @@ int main(){
         break;
     }
 
-    // Tiny Tiny Project: Game menu using switch statement
+    //shortcuts
+
+    int number = 10;
+    string result;
+    if (number % 2 == 0){
+        result = "Even";
+    } else{
+        result = "odd";
+    }
+
+    //or we can write this as:
+
+    int number = 10;
+    string result = (number % 2 == 0) ? "Even" : "Odd";
+    
+
+
 
 
 
