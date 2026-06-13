@@ -201,6 +201,30 @@ int main(){
     points2--;
     cout << "Final points: " << points2 << '\n';
 
+    int gold = 100;
+    gold = gold + 50; //adds 50 to gold
+
+    int silver = 100;
+    silver += 50; //adds 50 to silver
+
+    //switch
+
+    int level = 2;
+    switch (level){
+        case 1:
+        cout << "welcome to level 1! \n";
+        break;
+        case 2:
+        cout << "welcome to level 2! \n";
+        break;
+        default:
+        cout << "Unknown level! \n";
+        break;
+    }
+
+    // Tiny Tiny Project: Game menu using switch statement
+
+
 
     
 
