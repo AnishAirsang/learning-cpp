@@ -238,6 +238,11 @@ int main(){
     string result1= (number % 2 == 0) ? "Even" : "Odd";
 
     //loops
+    int counter = 1;
+    while (counter <= 3){
+        cout << "hello. loop count: " << counter << "\n";
+        counter++;
+    }
 
 
 
