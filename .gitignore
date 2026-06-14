@@ -1,0 +1,15 @@
+# Build folder
+build/
+
+# VS Code Code Runner temporary file
+tempCodeRunnerFile.cpp
+
+# Executable files
+main
+01_variables_and_types
+02_basic_math_operators
+03_user_input_cin
+04_conditionals_if_else
+05_shortcuts_and_operators
+06_switch_statements
+07_ternary_and_loops
