@@ -1,1 +1,7 @@
 build/
+tempCodeRunnerFile.cpp
+
+# Ignore all files with no extension
+*
+!*.cpp
+!*.gitignore
